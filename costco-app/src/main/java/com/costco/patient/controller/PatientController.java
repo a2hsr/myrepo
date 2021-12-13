@@ -21,7 +21,7 @@ public class PatientController {
 	// @RequestMapping(value = "/test", method = RequestMethod.GET)
 	@RequestMapping(method = RequestMethod.GET)
 	public String getStr() {
-		System.out.println("In getStr2");
+		System.out.println("In getStr3");
 		return "Hello Spr";
 	} // http://localhost:8080/costco/api/v1
 	
